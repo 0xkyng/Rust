@@ -1,3 +1,4 @@
+use std::mem;
 fn main() {
     let mut x = 5;
     println!("The value of x is: {x}");
@@ -130,5 +131,11 @@ fn main() {
     let mut number_array = [4,5,6,8,9];
 
     let sub_array = &number_array[0..3];
+    //let sub_array = &number_array[0..=3];
     println!("The subset values of the array are {:?}", sub_array);
+
+    //println!("The array is occupying {} bytes", std::mem::size_of_val(&number_array));
+    println!("The array is occupying  {} bytes", mem::size_of_val(&number_array));
+
+    let check_index = number_array.get(50);
 }
