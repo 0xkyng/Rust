@@ -1,0 +1,1 @@
+/home/isaac/Documents/RUST/exercises-on-Control-Flow-and-Conditionals/target/debug/exercises-on-Control-Flow-and-Conditionals: /home/isaac/Documents/RUST/exercises-on-Control-Flow-and-Conditionals/src/main.rs
